@@ -6,20 +6,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Marmol Instalações - Porque a Vida precisa de Luz</title>
     <link rel="icon" type="image/png" href="img/icone.png">
+    <script src="https://kit.fontawesome.com/f87260a7c7.js" crossorigin="anonymous"></script>
     <link href="css/navbar.css" rel="stylesheet">
+    <link href="css/slider.css" rel="stylesheet">
+    <link href="css/responsivo.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
 </head>
-<body> 
+<body>
+
+    <div class="menu2">
+        <div class="menu3">
+        <h1>MARMOL</h1>
+            <a href="#servico">Serviços</a>
+            <a href="#">Sobre Nós</a>
+            <a href="#">Agendamento de Horário</a>
+            <a href="#">Contato</a>
+            <a href="#">Alterar Tema</a>
+            <a href="#">Fazer Cadastro</a>
+        </div>
+    </div>
     <div class="navbar">
-        <div class="navesq">
+        <div class="navesq" id="menu">
             <h1>MARMOL</h1>
             <div class="menu">
-                <a href="#">Serviços</a>
+                <a href="#servico">Serviços</a>
                 <a href="#">Sobre Nós</a>
                 <a href="#">Agendamento de Horário</a>
                 <a href="#">Contato</a>
             </div>
         </div>
+        <div class="tema"><i class="fa-solid fa-paintbrush"></i></div>
+        <div class="login"><i class="fa-solid fa-user"></i></div>
+        <div class="tracos" onclick="Menu();">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div> 
     </div>
 
+    <div class="fundo" style="width: 100%; background-image: url('img/fundo.jpg')">
+        <div class="elemverb">
+        <div class="nome">
+            <h3>Marmol</h3>
+            <h4>Instalações</h4>
+        </div>
+        <div class="texto">
+            <p>Especializada em fornecer soluções de energia confiáveis e eficientes para clientes comerciais e residenciais.
+            Somos uma equipe apaixonada e experiente de profissionais qualificados que trabalham para atender às necessidades elétricas
+            de nossos clientes.</p>
+        </div>
+        <div class="botaozin"><a href="#">Saiba Mais</a></div>
+        </div>
+    </div>
+
+    <div class="divslider" id="servico">
+        <div class="titulosli">
+        <h2>Serviços</h2>
+        <span class="barra" id="barra"></span>
+        </div>
+        <br>
+        <div class="sliderg"></div>
+        <br>
+        <div class="visor">
+        <div class="sliderp"></div>
+        <div class="sliderp"></div>
+        <div class="sliderp"></div>
+        <div class="sliderp"></div>
+    </div>
+    </div>
+<script src="js/navbar.js"></script>
+<script src="js/slider.js"></script>
 </body>
 </html>
